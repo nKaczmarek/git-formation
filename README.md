@@ -33,5 +33,9 @@
  >
  > 2.```git bisect bad``` -> le projet n'est pas fonctionnel à ce commit
  
-
- 
+ > La commande ```git blame``` 
+ >
+ > Indique, pour chaque ligne d'un fichier, quelle est la dernière révision et la dernière personne à avoir modifié le fichier
+ >
+ > Exemple:
+ > ```git blame v13.3.7``` 
