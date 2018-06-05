@@ -1,4 +1,4 @@
-[Alt Text](https://git-scm.com/images/logos/1color-darkbg@2x.png)
+![Alt Text](https://git-scm.com/images/logos/1color-darkbg@2x.png)
 
 # Commande utile de Git
 
@@ -24,9 +24,14 @@
  > Permet d'enregistrer localement des modifications
  >
 
- > La commande ```git bisect start/good/bad```
+ > La commande ```git bisect param```
  >
  > Permet de valider le fait que la version du commit est fonctionnel ou non
  >
+ > Exemple: 
+ > 1.```git bisect good``` -> le projet est fonctionnel à ce commit
+ >
+ > 2.```git bisect bad``` -> le projet n'est pas fonctionnel à ce commit
+ 
 
  
